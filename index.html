@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Price Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#00c853" />
+
+</head>
+<body>
+  <main class="container">
+    <h1>Price Calculator</h1>
+
+    <div class="card">
+      <label>Price</label>
+      <input id="price" type="number" placeholder="e.g." step="any" />
+
+      <label>Discount (%)</label>
+      <input id="discount" type="number" placeholder="e.g." step="any" />
+
+      <label>VAT (%)</label>
+      <input id="vat" type="number" placeholder="e.g." step="any" />
+
+      <div class="result" id="result">Result: —</div>
+
+      <div class="actions">
+        <button id="copyBtn">Copy Result</button>
+        <button id="shareBtn">Share</button>
+        <button id="exportPdfBtn">Export PDF</button>
+      </div>
+    </div>
+
+    <footer class="small">Works offline (if PWA installed). Live update without pressing calculate.</footer>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js').catch(err => console.warn('SW failed', err));
+}
+</script>
+
+</body>
+</html>
