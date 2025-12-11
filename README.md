@@ -1,58 +1,55 @@
-# Smart Discount & VAT Calculator
+<p align="center">
+  <img src="https://raw.githubusercontent.com/motalibhossain747/smart-discount-vat-calculator/main/SharedScreenshot.jpg" width="180" />
+</p>
 
-A modern, lightweight and fast calculator that instantly calculates **Discount**, **VAT**, and **Final Price** as you type.  
-No installation required — works directly in any browser on mobile or desktop.
+<h1 align="center">Smart Discount & VAT Calculator</h1>
+
+<p align="center">
+A fast, modern and easy-to-use calculator that computes Discounts, VAT and Final Price instantly.  
+Perfect for business, shop owners and customers.
+</p>
+
+---
+
+## ✨ Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/motalibhossain747/smart-discount-vat-calculator/main/SharedScreenshot.jpg" width="300" />
+</p>
 
 ---
 
 ## 🚀 Features
 
-- 💰 **Instant Price Calculation**
-- 📉 **Discount Calculation (Flat/Percentage)**
-- 🧾 **VAT Calculation**
-- 🔄 Auto-update result as you type
-- 📱 Fully Responsive UI (Mobile Friendly)
-- 🎨 Clean UI with smooth animation
-- ⚡ 100% Offline — No internet needed
-- 🌐 Works via simple HTML file (shareable anywhere)
-- 🧮 Perfect for shoppers, business, and quick pricing
+- 💰 Instant discount calculation  
+- 📉 Auto price update while typing  
+- 🧾 VAT calculation (any percentage)  
+- 🔄 Final combined result: Price – Discount + VAT  
+- 🎨 Smooth animations & modern UI  
+- 📱 Mobile friendly  
+- 🌐 100% offline (PWA support)  
+- ⚡ Runs directly in browser without APK  
+
+---
+
+## 🌐 Live Demo
+
+👉 **Live Link:**  
+https://motalibhossain747.github.io/smart-discount-vat-calculator/
 
 ---
 
 ## 📂 Project Structure
+
+```
 index.html
-
-icon-192.png
-
-icon-512.png 
-
-manifest.json
-
-service-worker.js
-
-
-All CSS & JS are included inside **index.html** (single-file version available).
-
----
-
-## 🌐 Live Demo (GitHub Pages)
-
-
-
-https://motalibhossain747.github.io/smart-discount-vat-calculator/
-
-
-(If the link shows 404, wait 1–2 minutes after enabling GitHub Pages)
-
----
-
-## 📦 How to Use
-
-1. Enter product **Price**
-2. Enter **Discount** (optional)
-3. Enter **VAT** (optional)
-4. The final result updates automatically  
-5. Share the calculator by sending the link or HTML file
+app.js
+manifest.json  
+service-worker.js  
+styles.css
+SharedScreenshot.jpg
+README.md
+```
 
 ---
 
@@ -61,20 +58,28 @@ https://motalibhossain747.github.io/smart-discount-vat-calculator/
 - HTML5  
 - CSS3  
 - JavaScript  
-- PWA Support (Manifest + Service Worker)  
-- Material Design Inspired UI  
+- PWA (Installable Web App)  
+- Material UI Inspired Design  
+
+---
+
+## 📦 How To Use
+
+1. Enter product **Price**  
+2. Enter **Discount (%)**  
+3. Enter **VAT (%)**  
+4. Final result updates instantly  
+5. Install the PWA for offline use  
 
 ---
 
 ## 👤 Author
 
 **Motalib Hossain**  
-Smart Discount & VAT Calculator Developer
+Developer of Smart Discount & VAT Calculator
 
 ---
 
 ## 📜 License
 
-This project is open-source.  
-Feel free to use, modify, or improve the code.
-
+This project is open-source and free to use.
